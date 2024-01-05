@@ -1,0 +1,65 @@
+.container-notes{
+    margin-top:70px ;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(248, 249, 248);
+    justify-content: space-around;
+    align-items: center;
+}
+.aside{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    /* border: 3px solid black; */
+    height: 50vh;
+    background-color: white;
+    display: flex;
+}
+.displayNotes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 70vh;
+    width: 70%;
+    background-color: white;
+}
+.asideItems{
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgb(239, 245, 243);
+    width: 90%;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.card{
+    width: 70%;
+    height: 150px;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(187, 187, 103);
+    color: white;
+}
+.cardTitle{
+    font-weight: bold;
+    font-size: 25px;
+}
+.CardDelete{
+    color: white;
+}
+.CardDelete>a>img{
+    width: 15px;
+}

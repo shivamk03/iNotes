@@ -1,0 +1,68 @@
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    
+}
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(239, 245, 243);
+    box-shadow: 0px 3px  5px silver;
+}
+.icon-class{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5px; */
+}
+.navbarItems>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+ul>li>a{
+    text-decoration: none;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icon>img{
+    width: 70px;
+}
+.listItems{
+    padding: 0px 10px 0px 10px ;
+}
+.logincontainer{
+    margin: 0px 10px 0px 10px;
+}
+.logincontainer-signup{
+    margin: 0px 10px 0px 10px;
+}
+.icon-name{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.icon-name>a> span{
+    color: rgb(186, 186, 84);
+}
+.loginbtn-signup{
+    color: rgb(186, 186, 84);
+
+}
+.logincontainer-signup>a{
+    color: rgb(186, 186, 84);
+}

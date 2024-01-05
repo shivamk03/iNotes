@@ -1,0 +1,29 @@
+.container-about{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 249, 248);
+
+}
+.description-about{
+    width: 60%;
+}
+.heading-about>h1{
+    font-size: 50px;
+}
+.description-about>p{
+    font-size: 20px;
+}
+.socialmedia>button>img{
+    width: 50px;
+}
+.socialmedia>button{
+    border-style: none;
+    margin: 20px;
+    background-color: rgb(248, 249, 248);
+    cursor:pointer;
+}

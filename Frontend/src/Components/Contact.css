@@ -1,0 +1,22 @@
+.container-contactUs{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    flex-direction: column;
+    background-color: rgb(248, 249, 248);
+    padding-top: 0px;
+    width: 100%;
+}
+.heading-contact{
+    font-family: sans-serif;
+}
+.heading-contact>h1{
+    font-size: 60px;
+
+}
+.description{
+    width:30%;
+    text-align: center;
+}

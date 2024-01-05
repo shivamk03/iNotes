@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "9cbc5f29-d4b0-47fd-9f7a-6f840f6e55c5",
+    "colName": "MyNoteApp",
+    "created": "2023-03-24T04:20:51.869Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "7a8c124d-792e-46ef-b60c-2b02a6a4d869",
+        "name": "Authentication",
+        "containerId": "",
+        "created": "2023-03-24T04:21:12.563Z",
+        "sortNum": 30000
+      },
+      {
+        "_id": "ada10d17-7f63-4beb-a2a3-707330882d22",
+        "name": "Notes",
+        "containerId": "",
+        "created": "2023-03-24T04:27:29.536Z",
+        "sortNum": 20000
+      }
+    ]
+  }
+]

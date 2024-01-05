@@ -1,0 +1,14 @@
+/* 
+.heading-signup>h1{
+    font-size:45px;
+}
+.heading-signup{
+    width: 500px;
+}
+.heading-signup>h1>span{
+    animation-name: slidein;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    color: rgb(186, 186, 84);
+    visibility: visible; */
