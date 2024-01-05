@@ -4,7 +4,9 @@
   "description": "This is a note app on the cloud.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" :"nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "npm i"
   },
   "keywords": [
     "notes",
