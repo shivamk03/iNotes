@@ -5,7 +5,7 @@ const SignUp = () => {
   const [state, setState] = useState({ name: "", email: "", password: "" });
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/auth/createuser", {
+    const response = await fetch("https://inotes-6ysm.onrender.com/api/auth/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
