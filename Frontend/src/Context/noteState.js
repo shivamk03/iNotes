@@ -2,11 +2,11 @@ import { useState } from "react";
 import NoteContext from "./noteContext";
 
 const NoteState=(props)=>{
-  const local ="http://localhost:5000";
+  const local ="https://inotes-6ysm.onrender.com";
   let notes=[];
   const [state,setState]= useState(notes);
     const getNotes=async()=>{
-      const url =`http://localhost:5000/api/notes/fetchnotes`
+      const url =`https://inotes-6ysm.onrender.com/api/notes/fetchnotes`
       const response = await fetch(url, {
         method: "GET",
         headers: {
@@ -19,7 +19,7 @@ const NoteState=(props)=>{
       return notes;
     }
     const addNote =async(title,description,tag)=>{
-      const url =`http://localhost:5000/api/notes/createnote`
+      const url =`https://inotes-6ysm.onrender.com/api/notes/createnote`
       const response = await fetch(url, {
         method: "POST",
         headers: { 
@@ -38,7 +38,7 @@ const NoteState=(props)=>{
       setState(notes.concat(note));
     }
     const deleteNote=async(id)=>{
-      const url =`http://localhost:5000/api/notes/deletenote/${id}`
+      const url =`https://inotes-6ysm.onrender.com/api/notes/deletenote/${id}`
       const response = await fetch(url, {
         method: "DELETE",
         headers: {
