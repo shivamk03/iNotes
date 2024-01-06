@@ -6,7 +6,7 @@ const Login = () => {
   const [state, setState] = useState({ email: "", password: "" });
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/auth", {
+    const response = await fetch("https://inotes-6ysm.onrender.com/api/auth", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
